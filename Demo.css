@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #130f40;
+}
+
+
+/* Header start */
+
+
+/* Header end  */
+
+
+/* Nav start */
+
+.nav {
+    border: 2px solid #636e72;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 1em 1em black;
+}
+
+
+/* Nav end */
+
+
+/* logo start */
+
+.logo {
+    padding: 5px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #0652DD;
+}
+
+
+/* logo end */
+
+
+/* ul start */
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    padding: 5px;
+}
+
+ul li a {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ul end */
+
+
+/* main start */
+
+.main .section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10%;
+    border-radius: 20px;
+    transition: 1s linear;
+}
+
+.content {
+    padding: 10px;
+}
+
+h3 {
+    color: #95afc0;
+}
+
+p {
+    color: #dff9fb;
+}
+
+.pic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    height: 50%;
+    width: 50%;
+    border-radius: 25px;
+    transition: 1s linear;
+}
+
+.img:hover {
+    box-shadow: 0 0 1em 1em black;
+    transition: 1s linear;
+    transform: scale(1.1);
+}
+
+
+/* section2 start */
+
+.main #sec2 {
+    background: url(../images/black13.jpg);
+}
+
+.main #sec3 {
+    background: url(../images/black10.jpg);
+}
+
+.main #sec1 {
+    background: url(../images/black10.jpg);
+}
+
+.section:hover {
+    box-shadow: 0 0 1em 1em black;
+    transition: 1s linear;
+    transform: scale(1.1);
+}
+
+
+/* section2 end */
+
+
+/* main end */
+
+
+/* footer start*/
+
+footer {
+    background-color: #0652DD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin: 10%;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fb {
+    padding: 5px;
+}
+
+.About {
+    color: aliceblue;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* footer end */
